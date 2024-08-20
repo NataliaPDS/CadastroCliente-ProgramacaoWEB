@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+  
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container"> <!--sm, md, lg, xl, xxl, fluid-->
+        <br>
+        <h1> Cadastro de Paciente</h1>
+        <br>
+        <div class="row">
+           <div class="form-group col-2">
+             <label>ID:  </label>
+             <input type="text" class="form-control">
+           </div>
+          
+           <div class="form-group col-10">
+               <label> NOME:  </label>
+               <input type="text" class="form-control">
+           </div>
+
+       </div>
+       <br>
+       <div class="row">
+        <div class="form-group col-6">
+            <label>CPF:  </label>
+            <input type="text" class="form-control">
+          </div>
+
+          <div class="form-group col-1">
+            <label></label>
+          </div>
+         
+          <div class="form-group col-5">
+              <label> STATUS:  </label>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="0"></option>
+                    <option value="1">ATIVO</option>
+                    <option value="2">DESATIVO</option>
+                </select>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="form-group col-3">
+              <label>RG:  </label>
+              <input type="text" class="form-control">
+            </div>
+           
+            <div class="form-group col-3">
+                <label> EXPEDIDOR:  </label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="form-group col-1">
+                <label></label>
+            </div>
+            
+            <div class="form-group col-5">
+                <label> DATA DE NASCIMENTO:  </label>
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="form-group col-4">
+              <label>ESTADO CIVIL:  </label>
+              <select class="form-select" aria-label="Default select example">
+                <option value="0"></option>
+                <option value="1">SOLTEIRO</option>
+                <option value="2">CASADO</option>
+                <option value="3">DIVORCIADO</option>
+                <option value="4">VIÚVO</option>
+            </select>
+            </div>
+
+            <div class="form-group col-3">
+                <label></label>
+            </div>
+           
+            <div class="form-group col-5">
+                <label> SEXO:  </label>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="0"></option>
+                    <option value="1">MASCULINO</option>
+                    <option value="2">FEMININO</option>
+                    <option value="3">PREFIRO NÃO DIZER</option>
+                </select>
+            </div>
+            
+        </div>
+        <br>
+        <div class="row">
+            <div class="form-group col-7">
+              <label>EMAIL:  </label>
+              <input type="text" class="form-control">
+            </div>
+           
+            <div class="form-group col-5">
+                <label> TELEFONE:  </label>
+                <input type="text" class="form-control">
+            </div>
+            
+        </div>
+        <br>
+        <div class="row">
+            <div class="form-group col-5">
+              <label>CEP:  </label>
+              <input type="text" class="form-control">
+            </div>
+           
+            <div class="form-group col-7">
+                <label> CIDADE:  </label>
+                <input type="text" class="form-control">
+            </div>
+            
+        </div>
+        <br>
+        <div class="row">
+            <div class="form-group col-5">
+              <label>RUA:  </label>
+              <input type="text" class="form-control">
+            </div>
+           
+            <div class="form-group col-1">
+                <label> N°:  </label>
+                <input type="text" class="form-control">
+            </div>
+
+            <div class="form-group col-6">
+                <label> BAIRRO:  </label>
+                <input type="text" class="form-control">
+            </div>
+            
+        </div>
+        <br>
+        <div class="row">
+            <div class="form-group">
+                <button type="button" class="btn btn-light">Buscar <i class="bi bi-search"></i></button>
+                <button type="button" class="btn btn-light">Salvar <i class="bi bi-floppy"></i></button>
+                <button type="button" class="btn btn-light">Cancelar <i class="bi bi-arrow-left-circle"></i></button>
+                <button type="button" class="btn btn-light">Novo <i class="bi bi-plus"></i></button>
+                <button type="button" class="btn btn-light">Anamnese <i class="bi bi-person-rolodex"></i></button>
+                <button type="button" class="btn btn-light">Orçamento <i class="bi bi-person-rolodex"></i></button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
